@@ -1,0 +1,33 @@
+h1 {
+  color: red;
+}
+.list {
+  padding: 10px;
+  border: solid rgba(11, 11, 11, 0.08) 2px;
+  border-radius: 0.8rem;
+  background-color: rgb(91, 203, 220);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+}
+.ul {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+.div-list {
+  width: 70%;
+}
+.new {
+  display: flex;
+  flex-direction: column;
+}
+.new-contact__form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
