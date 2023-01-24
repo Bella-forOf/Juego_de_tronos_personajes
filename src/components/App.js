@@ -65,7 +65,7 @@ const handleClick = (ev) => {
            handleFilterName={handleFilterName}>
             filterName={filterName}
             </Filter></section>
-          <section className='section'>
+          <section className='body'>
             <MainList user={filterCharacter}></MainList>
             <NewCharacter 
             handleNew={handleNew}

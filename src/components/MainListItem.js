@@ -1,6 +1,6 @@
 function MainListItem(props) {
     return (
-      <li key={props.user.id} className='list'>
+      <li key={props.user.id} className='card translate'>
           <h3 className="card__title">
             {props.user.name} 
           </h3>

@@ -7,7 +7,7 @@ const Element = user.map((user) => {
 
 
   return (
-    <div className='div-list'> 
+    <div className='card-container'> 
       <ul className='ul'> {Element}</ul>
     </div>
   );
